@@ -1,0 +1,30 @@
+---
+title: "Test"
+author: "Child's name"
+date: "5/4/2020"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F)
+```
+
+## Challenge
+
+
+
+```{r}
+source('Math.R')
+```
+
+```{r comment=NA}
+giveMeMath()
+```
+\break
+
+```{r comment=NA}
+giveMeMath(2)
+```
+
